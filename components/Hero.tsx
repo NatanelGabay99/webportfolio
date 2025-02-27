@@ -2,6 +2,7 @@ import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { BsPersonWorkspace } from "react-icons/bs";
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -35,6 +36,12 @@ const Hero = () => {
     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
       Hi! I&apos;m Natanel, a FullStack Developer
     </p>
+
+    <div className="w-50 h-50 md:w-60 md:h-60 lg:w-80 lg:h-80 rounded-full overflow-hidden">
+      <img src="../public/images/WhatsApp Image 2025-02-27 at 21.47.35.jpeg" alt="my profile pic" />
+    </div>
+
+    </div>
 
     <div className="w-full flex justify-center">
       <a href="#about">
